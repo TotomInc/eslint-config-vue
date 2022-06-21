@@ -1,0 +1,52 @@
+{
+  "name": "@totominc/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "Personal ESLint config for Vue 3 + TypeScript projects.",
+  "author": "TotomInc <cazade.thomas@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TotomInc/eslint-config-vue.git"
+  },
+  "homepage": "https://github.com/TotomInc/eslint-config-vue#readme",
+  "keywords": [
+    "eslint",
+    "vue",
+    "typescript"
+  ],
+  "bugs": {
+    "url": "https://github.com/TotomInc/eslint-config-vue/issues"
+  },
+  "dependencies": {
+    "@vue/eslint-config-airbnb": "^6.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.5.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "eslint-plugin-vuejs-accessibility": "^1.2.0",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.11",
+    "typescript": "~4.7.2"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8.0.0",
+    "typescript": ">= 4.5.0",
+    "vue": ">= 3.2.26"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
