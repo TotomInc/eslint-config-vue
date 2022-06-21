@@ -1,15 +1,18 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   extends: [
-    "plugin:vue/vue3-recommended",
-
     "eslint:recommended",
+    "plugin:vue/vue3-recommended",
 
     "@vue/eslint-config-typescript/recommended",
     "@vue/eslint-config-airbnb",
     "@vue/eslint-config-prettier",
+    "plugin:vuejs-accessibility/recommended",
 
-    "plugin:prettier/recommended",
+    // Should be placed after eslint:recommended and vue3-recommended.
+    // Lint JSON, YML, and Markdown files.
+    // Lint promises, comments and some extra vanilla JS stuff (unicorn).
+    "./extra",
   ],
 
   overrides: [

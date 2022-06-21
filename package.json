@@ -7,6 +7,7 @@
   "license": "MIT",
   "files": [
     "index.js",
+    "extra.js",
     "LICENSE",
     "README.md"
   ],
@@ -33,13 +34,20 @@
     "eslint": "^8.5.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-jsonc": "^2.3.0",
+    "eslint-plugin-markdown": "^2.2.1",
     "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-unicorn": "^42.0.0",
     "eslint-plugin-vue": "^9.0.0",
     "eslint-plugin-vuejs-accessibility": "^1.2.0",
+    "eslint-plugin-yml": "^1.0.0",
+    "jsonc-eslint-parser": "^2.1.0",
     "prettier": "^2.5.1",
     "prettier-plugin-tailwindcss": "^0.1.11",
-    "typescript": "~4.7.2"
+    "typescript": "~4.7.2",
+    "yaml-eslint-parser": "^1.0.1"
   },
   "peerDependencies": {
     "eslint": ">= 8.0.0",
