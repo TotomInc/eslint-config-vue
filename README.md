@@ -53,6 +53,7 @@ module.exports = {
 ```json
 {
   "prettier.enable": false,
+  "eslint.validate": ["javascript", "typescript", "javascriptreact", "typescriptreact", "vue", "json", "jsonc", "markdown"],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }
