@@ -35,6 +35,9 @@ module.exports = {
 
   rules: {
     "import/prefer-default-export": "off",
+    // Let me user `null` instead of `undefined` when declaring variables,
+    // because I assume some variables **should** hold a `null` state.
+    "unicorn/no-null": "off",
     "no-unused-vars": "warn",
     // Let me use `for...of` whenever I want.
     "no-restricted-syntax": "off",
