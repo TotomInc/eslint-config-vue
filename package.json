@@ -1,6 +1,6 @@
 {
   "name": "@totominc/eslint-config-vue",
-  "version": "0.0.1-beta.3",
+  "version": "0.0.1-beta.4",
   "description": "Personal ESLint config for Vue 3 + TypeScript projects.",
   "author": "TotomInc <cazade.thomas@gmail.com>",
   "main": "index.js",
