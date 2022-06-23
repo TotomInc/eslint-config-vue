@@ -36,5 +36,7 @@ module.exports = {
   rules: {
     "import/prefer-default-export": "off",
     "no-unused-vars": "warn",
+    // Let me use `for...of` whenever I want.
+    "no-restricted-syntax": "off",
   },
 };
