@@ -4,7 +4,7 @@
 
 - Inherit defaults recommended by Vue team, when creating a project with `npm init vue@3`.
 - TypeScript and Vue 3 support.
-- Follows AirBnB JavaScript Style Guide.
+- Follows Airbnb JavaScript Style Guide.
 - Includes Prettier with auto-fix for formatting.
 - Automatic TailwindCSS class sorting with `prettier-plugin-tailwindcss`.
 - Cypress plugin enabled only on Cypress files.
