@@ -9,7 +9,7 @@ specifiers:
   eslint-plugin-cypress: ^2.12.1
   eslint-plugin-eslint-comments: ^3.2.0
   eslint-plugin-jsonc: ^2.3.0
-  eslint-plugin-markdown: ^2.2.1
+  eslint-plugin-markdown: ^3.0.0
   eslint-plugin-prettier: ^4.0.0
   eslint-plugin-promise: ^6.0.0
   eslint-plugin-unicorn: ^43.0.0
@@ -31,7 +31,7 @@ dependencies:
   eslint-plugin-cypress: 2.12.1_eslint@8.18.0
   eslint-plugin-eslint-comments: 3.2.0_eslint@8.18.0
   eslint-plugin-jsonc: 2.3.0_eslint@8.18.0
-  eslint-plugin-markdown: 2.2.1_eslint@8.18.0
+  eslint-plugin-markdown: 3.0.0_eslint@8.18.0
   eslint-plugin-prettier: 4.0.0_eslint@8.18.0+prettier@2.7.1
   eslint-plugin-promise: 6.0.0_eslint@8.18.0
   eslint-plugin-unicorn: 43.0.0_eslint@8.18.0
@@ -819,11 +819,11 @@ packages:
       natural-compare: 1.4.0
     dev: false
 
-  /eslint-plugin-markdown/2.2.1_eslint@8.18.0:
-    resolution: {integrity: sha512-FgWp4iyYvTFxPwfbxofTvXxgzPsDuSKHQy2S+a8Ve6savbujey+lgrFFbXQA0HPygISpRYWYBjooPzhYSF81iA==}
-    engines: {node: ^8.10.0 || ^10.12.0 || >= 12.0.0}
+  /eslint-plugin-markdown/3.0.0_eslint@8.18.0:
+    resolution: {integrity: sha512-hRs5RUJGbeHDLfS7ELanT0e29Ocyssf/7kBM+p7KluY5AwngGkDf8Oyu4658/NZSGTTq05FZeWbkxXtbVyHPwg==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
-      eslint: '>=6.0.0'
+      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       eslint: 8.18.0
       mdast-util-from-markdown: 0.8.5
