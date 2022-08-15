@@ -28,7 +28,7 @@
     "url": "https://github.com/TotomInc/eslint-config-vue/issues"
   },
   "dependencies": {
-    "@vue/eslint-config-airbnb": "^6.0.0",
+    "@vue/eslint-config-airbnb": "^7.0.0",
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/eslint-config-typescript": "^11.0.0",
     "eslint": "^8.5.0",
